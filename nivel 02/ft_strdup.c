@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <libc.h>
 
-static int  ft_strlen(char *src)
+int  ft_strlen(char *src)
 {
     int i = 0;
     while (src[i])
